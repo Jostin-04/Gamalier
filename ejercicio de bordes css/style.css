@@ -1,0 +1,56 @@
+body{
+    font-family: helvetica;
+    background-color: beige;
+}
+.titulo{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.primera{
+    padding: 10px;
+    margin: 25px;
+    border-top-left-radius: 35px;
+    max-width: 200px;
+    background-color: black;
+    color: white;
+    position: relative;
+    left: 525px;
+    text-align: center;
+}
+.segundo{
+    padding: 10px;
+    margin: 25px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    max-width: 200px;
+    position: relative;
+    left: 525px;
+    border-top-right-radius: 35px;
+}
+.tercero{
+    padding: 10px;
+    margin: 25px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    position: relative;
+    left: 525px;
+    max-width: 200px;
+    border-bottom-right-radius: 35px;
+}
+.cuarta{
+    padding: 10px;
+    margin: 25px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    position: relative;
+    left: 525px;
+    max-width: 200px;
+    border-bottom-left-radius: 35px;
+}
