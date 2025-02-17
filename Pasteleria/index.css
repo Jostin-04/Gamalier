@@ -1,0 +1,101 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 15px 0;
+    height: fit-content;
+}
+body {
+    font-family: "Arial", sans-serif;
+    line-height: 1.6;
+    background-color: #fff;
+    color: #333;
+}
+.eslogan{
+    background-color: #f5c55fcc;
+    padding: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 15px;
+}
+
+header {
+    background: #833618c6;
+    padding: 0px 0;
+    color: #fff;
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: url("pastel.jpg") no-repeat center/cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.about p {
+    margin: 0px 180px;
+    width: 800px;
+    min-height: 100px;
+    height: fit-content;
+}
+.hero p {
+    font-size: 1.5rem;
+}
+.producto{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+}
+.produc{
+    width: 500px;
+    margin: 0 25px;
+}
+
+.about{
+    padding: 20px 0;
+}
+
+.about h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+footer {
+    background: #833618c6;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}

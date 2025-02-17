@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Arial", sans-serif;
+    line-height: 1.6;
+    background-color: #fff;
+    color: #333;
+}
+.eslogan{
+    background-color: #f5c55fcc;
+    padding: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 15px;
+}
+
+header {
+    background: #833618c6;
+    padding: 0px 0;
+    color: #fff;
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.gallery {
+    padding: 20px 0;
+}
+.gallery h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+.gallery-item img {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+    height: fit-content;
+}
+footer {
+    background: #833618c6;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 15px 0;
+    height: fit-content;
+}
